@@ -1,10 +1,10 @@
 # SIMULATION AND IMPLEMENTATION OF COMBINATIONAL LOGIC CIRCUITS
 
-AIM: To simulate and synthesis Logic Gates,Adders and Subtractor using Vivado Software
+**AIM:** To simulate and synthesis Logic Gates,Adders and Subtractor using Vivado Software
 
-APPARATUS REQUIRED : Vivado™ ML 2023.2
+**APPARATUS REQUIRED :** Vivado™ ML 2023.2
 
-PROCEDURE :
+**PROCEDURE :**
 
 Open Vivado: Launch Xilinx Vivado software on your computer.
 
@@ -23,6 +23,7 @@ Set Simulation Time: In the Vivado Simulator window, set the simulation time if 
 Run Simulation: Start the simulation by clicking on the "Run" button in the simulation window.
 
 View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
+
 **LOGIC DIAGRAM**
 
 ENCODER
@@ -51,7 +52,7 @@ MAGNITUDE COMPARATOR
 
 
   
-PROCEDURE:
+**PROCEDURE:**
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
 STEP:3  Select new source in the New Project and select Verilog Module as the Source type.                       
@@ -64,7 +65,7 @@ STEP:9  In the Design Object List Window, enter the pin location for each pin in
 STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
-VERILOG CODE
+**VERILOG CODE :**
 
    1. Decoder 3to 8:
 ```
@@ -199,6 +200,6 @@ output:
 elaborated design:
 ![image](https://github.com/Gokuls2003/VLSI-LAB-EXP-2/assets/159005418/cfe3227e-67da-4bc5-a414-8b7dc734d18a)
 
-Result:
+**Result:**
  The Simulation and Synthesis Logic Gates,Adders and Subtractor is successfully verified using Vivado Software .
 
